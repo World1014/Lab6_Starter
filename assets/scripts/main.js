@@ -43,10 +43,10 @@ function addRecipesToDocument(recipes) {
   //            Append each element to <main>
   recipes.forEach((rec) =>{
     let recEl = document.createElement('recipe-card');
-    if(rec){
+    //if(rec){
       recEl.data = rec;
       mainRef.appendChild(recEl);
-    }
+   // }
   });
   
 }
